@@ -1,8 +1,7 @@
 
-
-/*
+/* 
 * { border: 1px dashed red; }
- */
+*/
 
 * {
 	box-sizing: border-box;
@@ -30,7 +29,7 @@ nav {
 }
 
 section {
-	width: 18%;
+	width: 20%;
 	height: 460px;
 	margin: 20px 0;
 	background-color: lightskyblue;
@@ -38,12 +37,12 @@ section {
 }
 
 article {
-	width: 64%;
+	width: 60%;
 	float: left;
 }
 
 aside {
-	width: 18%;
+	width: 20%;
 	height: 460px;
 	margin: 20px 0;
 	background-color: lightskyblue;
@@ -72,9 +71,8 @@ footer {
 }
 
 .item2 {
-	width: 86%;
-	height: 100px;
-	margin-top: 10px;
+	width: 91%;
+	height: 85px;
 	background-color: lightskyblue;
 }
 
