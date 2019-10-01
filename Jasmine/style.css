@@ -5,9 +5,7 @@ h2	{ font-family: calibri; color: dimgray; font-size: 1.5em; }
 h3	{ font-family: calibri; color: dimgray; font-size: 1.2em; }
 
 a         { font-family: calibri; color: lightgray; }
-a:focus   { color: dimgray; background-color: white; }
-a:hover   { color: lightgray; background-color: white; }
-a:active  { color: dimgray; background-color: white; }
+a:hover   { color: dimgray; background-color: white; }
 
 nav	{ font-family: calibri; font-size: 1.2em; }
 
@@ -24,30 +22,48 @@ nav	{ font-family: calibri; font-size: 1.2em; }
 }
 
 header {
-
+	display: flex;
+	align-items: center;
+	padding: 10px;
 }
 
-nav {
+header img { width: 20%; }
 
+nav {
+	background-color: darkred;
+	padding: 10px;
+	border-top: 1px solid dimgray;
+}
+
+nav a {
+	padding: 10px 20px;
+	text-decoration: none;
 }
 
 main {
-
 }
 
-section {
-
+main h1 {
+	font-size: 3em;
+	text-align: center;
+	margin: 10px 0;
 }
 
-article {
-
-}
-
-aside {
-	
+main h2 {
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background-color: gray;
 }
 
 footer {
+	text-align: center;
+	border-top: 8px solid gray;
+	padding: 10px;
 
+}
+
+footer img {
+	width: 10%;
 }
 
